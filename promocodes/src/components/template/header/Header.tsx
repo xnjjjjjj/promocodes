@@ -3,6 +3,7 @@ import {
   FORM_URL,
   HOME_URL,
   PAGINATION_URL,
+  PRIVATE_URL,
   TEST_URL,
 } from "./navigation/navigation-urls";
 import { Link } from "react-router-dom";
@@ -26,6 +27,9 @@ const Header = () => {
       <Link to={FORM_URL}>Форма</Link>
       <Link to={TEST_URL}>Тестовая страница</Link>
 
+      {isAuthenticated ? (
+        <Link to={PRIVATE_URL}>Приватная страница</Link>
+      ) : null}
       <Button onClick={handleAuthClick}>
         {isAuthenticated ? "Выйти" : "Войти"}
       </Button>
