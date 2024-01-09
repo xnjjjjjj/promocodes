@@ -5,6 +5,7 @@ import {
   FORM_URL,
   HOME_URL,
   PAGINATION_URL,
+  PRIVATE_URL,
   TEST_URL,
 } from "./components/template/header/navigation/navigation-urls";
 import Home from "./components/Home/Home";
@@ -12,8 +13,10 @@ import TableComponent from "./components/TableComponent/TableComponent";
 import Test from "./components/test/Test";
 import Form from "./components/Form/Form";
 import { AuthProvider } from "./context/AuthContext";
+import PrivateRoute from "./components/AuthOnly/PrivatePage/PrivateRoute";
 
 function App() {
+
   return (
     <BrowserRouter>
       <AuthProvider>
@@ -32,6 +35,10 @@ function App() {
               <Route path={FORM_URL} Component={Form}>
                 Home
               </Route>
+              <Route
+                path={PRIVATE_URL}
+                element={<PrivateRoute />}
+              />
             </Routes>
           </div>
         </Template>
