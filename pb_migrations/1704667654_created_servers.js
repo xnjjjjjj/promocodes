@@ -11,7 +11,7 @@ migrate((db) => {
       {
         "system": false,
         "id": "q27fnvqr",
-        "name": "processor",
+        "name": "shop",
         "type": "text",
         "required": true,
         "presentable": false,
@@ -25,7 +25,7 @@ migrate((db) => {
       {
         "system": false,
         "id": "ardcvgcx",
-        "name": "disk",
+        "name": "data",
         "type": "text",
         "required": true,
         "presentable": false,
@@ -39,7 +39,7 @@ migrate((db) => {
       {
         "system": false,
         "id": "7pjqlnwg",
-        "name": "ram",
+        "name": "quantity",
         "type": "text",
         "required": true,
         "presentable": false,
@@ -53,7 +53,7 @@ migrate((db) => {
       {
         "system": false,
         "id": "78fv5bcr",
-        "name": "rentPerMonth",
+        "name": "discount",
         "type": "text",
         "required": true,
         "presentable": false,

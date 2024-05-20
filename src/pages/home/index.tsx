@@ -14,10 +14,10 @@ const StyledMain = styled.main`
 
 interface IServer {
   id: string;
-  processor: string;
-  disk: string;
-  ram: string;
-  rentPerMonth: number;
+  shop: string;
+  data: string;
+  quantity: string;
+  discount: number;
 }
 
 export default function Home() {
@@ -41,10 +41,10 @@ export default function Home() {
         setPagination(pagination);
         const servers = data.items.map((item: IServer) => ({
           key: item.id,
-          processor: item.processor,
-          disk: item.disk,
-          ram: item.ram,
-          rentPerMonth: item.rentPerMonth,
+          shop: item.shop,
+          data: item.data,
+          quantity: item.quantity,
+          discount: item.discount,
         }));
         setData(servers);
       });
@@ -53,24 +53,24 @@ export default function Home() {
 
   const columns: ColumnsType[] = [
     {
-      title: "Процессор",
-      dataIndex: "processor",
-      key: "processor",
+      title: "Shop",
+      dataIndex: "shop",
+      key: "shop",
     },
     {
-      title: "Диск",
-      dataIndex: "disk",
-      key: "disk",
+      title: "Data",
+      dataIndex: "data",
+      key: "data",
     },
     {
-      title: "RAM",
-      dataIndex: "ram",
-      key: "ram",
+      title: "Quantity",
+      dataIndex: "quantity",
+      key: "quantity",
     },
     {
-      title: "Аренда в месяц",
-      dataIndex: "rentPerMonth",
-      key: "rentPerMonth",
+      title: "Discount",
+      dataIndex: "discount",
+      key: "discount",
     },
   ];
 

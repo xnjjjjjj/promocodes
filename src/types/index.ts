@@ -1,9 +1,9 @@
 export type ServerType = {
   key: string;
-  processor: string;
-  disk: string;
-  ram: string;
-  rentPerMonth: string;
+  shop: string;
+  data: string;
+  quantity: string;
+  discount: string;
 };
 
 export type PaginationType = {
