@@ -14,13 +14,13 @@ const data = [
     shop: "AMD Ryzen 7 3700X",
     data: "2TB HDD",
     quantity: "32GB",
-    discount: "6000  руб./мес.",
+    discount: "6000  руб./мес",
   },
   {
     shop: "Intel Core i7-9700K",
     data: "500GB SSD",
     quantity: "16GB",
-    discount: "7000  руб./мес.",
+    discount: "7000  руб./мес",
   },
   {
     shop: "Intel Xeon E5-2630 v4",
@@ -41,7 +41,7 @@ const data = [
     discount: "10000  руб./мес.",
   },
   {
-    shop: "Intel Xeon E5-2630 v4",
+    shop: "Intel Xeon E5 2630 v4",
     data: "1TB HDD",
     quantity: "16GB",
     discount: "11000  руб./мес.",
