@@ -25,4 +25,8 @@ dist-ssr
 
 pb_data/logs.db
 pb_data/logs.db-shm
+<<<<<<< HEAD
 pb_data/logs.db-wal
+=======
+pb_data/logs.db-wal
+>>>>>>> 0ba1e764b64d362e287763899e58cfdae195d63d
