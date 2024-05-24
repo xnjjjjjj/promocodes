@@ -8,7 +8,8 @@ const data = [
     shop: "Inte Xeon E5-2630 v4",
     data: "1TB HDD",
     quantity: "16GB",
-    discount: "5000 ",
+    discount: "5000",
+
   },
   {
     shop: "AMD Ryzen 7 3700X",
