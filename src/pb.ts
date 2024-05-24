@@ -5,22 +5,23 @@ export const pb = new PocketBase("http://127.0.0.1:8090");
 //тут мы создаем коллекцию серверов через код (тк через админку дольше)
 const data = [
   {
-    shop: "Intel Xeon E5-2630 v4",
+    shop: "Inte Xeon E5-2630 v4",
     data: "1TB HDD",
     quantity: "16GB",
-    discount: "0",
+    discount: "5000",
+
   },
   {
     shop: "AMD Ryzen 7 3700X",
     data: "2TB HDD",
     quantity: "32GB",
-    discount: "6000  руб./мес.",
+    discount: "6000  руб./мес",
   },
   {
     shop: "Intel Core i7-9700K",
     data: "500GB SSD",
     quantity: "16GB",
-    discount: "7000  руб./мес.",
+    discount: "7000  руб./мес",
   },
   {
     shop: "Intel Xeon E5-2630 v4",
