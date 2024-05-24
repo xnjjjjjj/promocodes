@@ -41,9 +41,9 @@ const data = [
     discount: "10000  руб./мес.",
   },
   {
-    shop: "Intel Xeon E5-2630 v4",
-    data: "1TB HDD",
-    quantity: "16GB",
+    shop: "",
+    data: "",
+    quantity: "",
     discount: "11000  руб./мес.",
   },
   {
