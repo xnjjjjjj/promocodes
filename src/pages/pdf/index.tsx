@@ -19,7 +19,7 @@ Font.register({
 
 const styles = StyleSheet.create({
   page: {
-    flexDirection: "сolumn",
+    flexDirection: 'column',
     backgroundColor: "#E4E4E4",
   },
   section: {
